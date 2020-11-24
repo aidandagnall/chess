@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Resources/icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Images\BlackBishop.png" />
+    <None Remove="Resources\Images\BlackKing.png" />
+    <None Remove="Resources\Images\BlackKnight.png" />
+    <None Remove="Resources\Images\BlackPawn.png" />
+    <None Remove="Resources\Images\BlackQueen.png" />
+    <None Remove="Resources\Images\BlackRook.png" />
+    <None Remove="Resources\Images\WhiteBishop.png" />
+    <None Remove="Resources\Images\WhiteKing.png" />
+    <None Remove="Resources\Images\WhiteKnight.png" />
+    <None Remove="Resources\Images\WhitePawn.png" />
+    <None Remove="Resources\Images\WhiteQueen.png" />
+    <None Remove="Resources\Images\WhiteRook.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MvvmLightLibsStd10" Version="5.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Images\BlackBishop.png" />
+    <Resource Include="Resources\Images\BlackKing.png" />
+    <Resource Include="Resources\Images\BlackKnight.png" />
+    <Resource Include="Resources\Images\BlackPawn.png" />
+    <Resource Include="Resources\Images\BlackQueen.png" />
+    <Resource Include="Resources\Images\BlackRook.png" />
+    <Resource Include="Resources\Images\WhiteBishop.png" />
+    <Resource Include="Resources\Images\WhiteKing.png" />
+    <Resource Include="Resources\Images\WhiteKnight.png" />
+    <Resource Include="Resources\Images\WhitePawn.png" />
+    <Resource Include="Resources\Images\WhiteQueen.png" />
+    <Resource Include="Resources\Images\WhiteRook.png" />
+  </ItemGroup>
+
+</Project>
